@@ -73,7 +73,10 @@ input, select, textarea {
 }
 
 /* Basic */
-
+	.navButton{
+		border-color: #3B353C;
+		border-radius: 25%;
+	}
 	html {
 		box-sizing: border-box;
 	}
@@ -108,7 +111,7 @@ input, select, textarea {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 	}
-
+	
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #483949;
@@ -150,6 +153,7 @@ input, select, textarea {
 	a {
 		color: inherit;
 		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
+		font-weight: bold;
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -186,6 +190,9 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		padding-left: 175px ;
+		
+		padding-right: 175px ;
 	}
 
 	br.clear {
@@ -232,6 +239,8 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
+		
+
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -281,6 +290,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -1758,6 +1768,7 @@ input, select, textarea {
 
 	.row > section, .row > article {
 		margin-bottom: 0;
+		
 	}
 
 	header {
@@ -1815,7 +1826,18 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
-
+		.profilePic{
+			border-radius: 20%;
+			width: 300px;
+    		height: auto;
+		}
+	.techLogo{
+		width: 100px;
+		height: auto;
+	}
+	.centeredText{
+		text-align: center;
+	}
 /* List */
 
 	ul {
@@ -2176,7 +2198,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/background.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2287,9 +2309,10 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
-		padding: 1.5em 0 1.5em 0;
+		padding: 1.5em 0 1.5em 0;	
 		z-index: 1;
 		overflow: hidden;
+		background-color:rgba(0, 0, 0, 0.5)
 	}
 
 		#nav > ul {
@@ -2408,7 +2431,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #whi;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
