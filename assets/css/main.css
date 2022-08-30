@@ -2623,7 +2623,12 @@ input, select, textarea {
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
 		}
-
+		.contact{
+			background-color: #b4b4b4;
+		}
+		.formInput{
+			margin-bottom: 10px;
+		}
 		.carousel article {
 			display: inline-block;
 			width: 18em;
