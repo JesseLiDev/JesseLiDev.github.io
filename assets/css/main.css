@@ -28,6 +28,11 @@ body {
 	line-height: 1;
 }
 
+.paragraph {
+	color: rgb(20, 20, 20);
+	font-weight: 400;
+}
+
 ol, ul {
 	list-style: none;
 }
