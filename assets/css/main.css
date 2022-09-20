@@ -2629,11 +2629,18 @@ input, select, textarea {
 			padding: 0 2em 0 2em;
 		}
 		.contact{
-			background-color: #443c45;
+			background-color: rgba(0, 0, 0, 0.70);  
+			margin-left: 15%;
+			margin-right: 15%;
+			border-radius: 25px;
 		}
-		.formInput{
+		.formInput{ 
 			margin-bottom: 10px;
-			color: #1C0920;
+			margin-top: 10px;
+			color: rgb(28, 9, 32);
+		}
+		input::placeholder{
+			color:black;
 		}
 		.carousel article {
 			display: inline-block;
